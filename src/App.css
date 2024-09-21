@@ -1,0 +1,118 @@
+header {
+  font-size: 16px;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(99, 127, 189);
+}
+
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.sections > li {
+  color: aliceblue;
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.sections > li > a{
+  text-decoration: none;
+}
+
+.sections > li > a:link, .sections > li > a:visited, .sections > li > a:focus{
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  place-content: center;
+}
+
+.display {
+  height: 100%;
+}
+.components {
+  display: flex;
+  justify-content: right;
+  height: 100%;
+  width: 2rem;
+  overflow: hidden;
+  transition: all 0.7s ease-out;
+}
+
+.components:hover{
+  width: 100%;
+}
+
+/* .taskbar {
+  display: grid;
+  grid-template-columns: repeat(22, 1fr);
+  place-content: center;
+  font-size: auto;
+  margin: 0.5rem;
+  height: 3rem;
+  padding: 0  0.5rem;
+  background-color: rgba(192, 192, 192, 0.404);
+  border-radius: 10px;
+}
+
+.time {
+  grid-column: 1/2;
+  display: grid;
+  place-content: center;
+  font-family: "Cascadia code";
+  margin: 0rem;
+  border-radius: 15px;
+  background-color: #505050;
+}
+
+.desktops {
+  grid-column: 10/14;
+  padding: 0 2.5rem;
+}
+
+.nav-desktop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  place-content: center;
+  width: auto;
+  margin: 0;
+  padding: 0.4rem 0;
+  border-radius: 15px;
+  background-color: #606060;
+}
+
+.nav-desktop > li {
+  list-style: none;
+  margin: 0;
+  padding: 0rem 0.5rem;
+}
+
+.nav-desktop > li:hover{
+  background-color: rgb(185, 39, 39);
+  border-radius: 15px;
+}
+
+.tools {
+  height: 0.5rem;
+  background-color: #606060;
+  margin: 0;
+}
+
+.wifi {
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0;
+  padding: 0rem 0.5rem;
+} */
